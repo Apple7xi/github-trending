@@ -64,6 +64,8 @@ def job():
     # write markdown
     scrape('python', filename)
     scrape('swift', filename)
+    scrape('c++', filename)
+    scrape('objective-c', filename)
     scrape('javascript', filename)
     scrape('go', filename)
 
